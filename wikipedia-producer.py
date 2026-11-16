@@ -9,6 +9,7 @@ and produces them to a Kafka topic for processing.
 A single Kafka producer is opened for the whole run, so produce() is
 asynchronous and batched. Delivery failures are reported through a
 callback, and a summary (rate, failures, lag) is printed periodically.
+
 """
 
 from quixstreams import Application
