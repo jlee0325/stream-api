@@ -1,2 +1,5 @@
 # stream-api
-A simple stream API
+
+A simple API for data streaming
+
+Hello world
